@@ -2,7 +2,6 @@
 
 // Arguments can be provided when a request is initated on-chain and used in the request source code as shown below
 const txnHash = args[0];
-console.log("hash:", txnHash);
 const magpieCustodianWallet = args[1];
 // const magpieCustodianWallet = `bc1p6eklcpk4tzuvc5wkjm0v770jx6jvwqz8s56mypjz74tggzcr4aeqc5y0xj`
 
