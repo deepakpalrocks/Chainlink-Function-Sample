@@ -1,8 +1,3 @@
-// This example shows how to make a call to an open API (no authentication required)
-// to retrieve asset price from a symbol(e.g., ETH) to another symbol (e.g., USD)
-
-// CryptoCompare API https://min-api.cryptocompare.com/documentation?key=Price&cat=multipleSymbolsFullPriceEndpoint
-
 // Refer to https://github.com/smartcontractkit/functions-hardhat-starter-kit#javascript-code
 
 // Arguments can be provided when a request is initated on-chain and used in the request source code as shown below
