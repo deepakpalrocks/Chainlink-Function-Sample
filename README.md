@@ -49,8 +49,14 @@ This repo contains example and sample projects, each in their own directory.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-To try to run this repo, follow the steps for installation in:
-https://docs.chain.link/chainlink-functions/tutorials/simple-computation
+1. Install deno: https://deno.land/manual/getting_started/installation
+2. Install latest version of NodeJS 20
+3. navigate to function-exmaples folder `cd functions-examples/`
+4. npm install
+5. Should have VS Code 22 with C++ for windows developement for the step 4 to successfullt completed.
+6. Run `npx env-enc set-pw`
+7. Enter password told by deepak.
+8. Run `node examples\2-call-api\request.js`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
