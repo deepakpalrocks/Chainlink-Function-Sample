@@ -49,50 +49,8 @@ This repo contains example and sample projects, each in their own directory.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-Each directory within this repo will have a `README.md` that details everything you need to run the sample.
-
-## Downloading A Single Directory
-```sh
-# Create a directory, and enter it
-mkdir smart-contract-examples && cd smart-contract-examples
-
-# Initialize a Git repository
-git init
-
-# Add this repository as a remote origin
-git remote add -f origin https://github.com/smartcontractkit/smart-contract-examples/
-
-# Enable the tree check feature
-git config core.sparseCheckout true
-
-# Create the spare-checkout file with the value
-# the directory you wish to download
-#
-# Use the name of the directory as 'REPLACE_ME'
-echo 'REPLACE_ME' >> .git/info/sparse-checkout
-
-## Download with pull
-git pull origin master
-```
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+To try to run this repo, follow the steps for installation in:
+https://docs.chain.link/chainlink-functions/tutorials/simple-computation
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
